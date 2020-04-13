@@ -1,0 +1,17 @@
+{
+    "name": "satish/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Satish Kumar",
+            "email": "satish.taluru@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"satish\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
