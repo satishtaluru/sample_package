@@ -1,7 +1,5 @@
 <?php 
-
-namespace satish\HelloWorld;
-
+namespace HelloWorld;
 class Index
 {
     public function greet($greet = "Hello World")
